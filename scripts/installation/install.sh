@@ -17,6 +17,9 @@ cd /app/third_party/Grounded-SAM-2 && \
 mkdir -p third_party/FoundationPose/weights
 gdown --folder 1DFezOAD0oD1BblsXVxqDsl8fj0qzB82i -O third_party/FoundationPose/weights
 
+# apply patches to third-party packages
+bash /app/scripts/installation/apply_patches.sh
+
 # foundation pose compile
 cd /app/third_party/FoundationPose/mycpp && \
   rm -rf build && \
