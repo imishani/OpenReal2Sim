@@ -2,7 +2,9 @@ keys:
   # - demo_image
   # - demo_video
   # - demo_genvideo
-  - tester
+  #- tester
+  # - home_rani_uten.mp4
+  - home_dishes
 
 # global settings, can be overridden by local settings
 global:
